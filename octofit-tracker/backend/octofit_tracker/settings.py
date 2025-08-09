@@ -57,6 +57,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'octofit_db',
+        'ENFORCE_SCHEMA': False,
     }
 }
 
